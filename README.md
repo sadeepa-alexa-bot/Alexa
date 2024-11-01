@@ -39,10 +39,12 @@
 <a href="https://whatsapp.com/channel/0029VaD5t8S1nozDfDDjRj2J">Join Alexa updates chanel 👧</a>
 <hr>
 
-***CLICK THE BUTTON BELOW TO DEPLOY 🌸***
+***CLICK THE BUTTON BELOW TO DEPLOY🌸***
 
  <details close>
 <summary>🌸 DEPLOY ONLY PAY 🌸</summary>
+	 
+--------	 
 1.  #### DEPLOY IN HEROKU 
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=new)
@@ -83,13 +85,14 @@
 </details>
 <details close>
 <summary>🌸 DEPLOY IN FREE 🌸</summary>
+
 <h5>🌸 Deploy Free Koyeb👇</h5>
 <a href="http://koyeb.com" ><img src="https://i.ibb.co/t4KftP0/images.png width="50" height="25"></a>
 <hr>
 <h5>🌸 Deploy Free Workflows 👇</h5>
 
 ```
- name: Node.js CI
+name: Node.js CI
 
 on:
   push:
@@ -127,6 +130,43 @@ jobs:
 <hr>
 <img src="http://readme-typing-svg.herokuapp.com?color=d1fa02&center=true&vCenter=true&multiline=false&lines=Created+By+Sadeesha_Min" alt="">
 <hr>
+
+**🌸 FREE DEPLOY WORKFLOWS**
+```
+name: Node.js CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [20.x]
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Start application
+      run: npm start
+```
 
 
 <h5>🌸 TOTAL WEB VIEWS</h5>
